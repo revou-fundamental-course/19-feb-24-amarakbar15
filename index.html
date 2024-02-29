@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portofolio</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">Logo</div>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Our Profile</a></li>
+            <li><a href="#">Portfolio</a></li>
+        </ul>
+    </nav>
+    <button class="message-button">Message Us</button>
+</header>
+
+<main>
+    <div class="banner">
+        <img src="banner.jpg" alt="Banner Image">
+    </div>
+    <div class="content">
+        <h1>Hi Amar, welcome to my website</h1>
+        <p>Ini adalah website latihan pertama saya.</p>
+    </div>
+    <div class="thumbnails">
+        <div class="thumbnail">Jakarta</div>
+        <div class="thumbnail">Bandung</div>
+        <div class="thumbnail">Surabaya</div>
+    </div>
+</main>
+
+<footer>
+    <div class="form">
+        <form>
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="birthdate">Tanggal Lahir:</label>
+            <input type="date" id="birthdate" name="birthdate" required>
+            <label for="gender">Jenis Kelamin:</label>
+            <select id="gender" name="gender" required>
+                <option value="male">Laki-laki</option>
+                <option value="female">Perempuan</option>
+            </select>
+            <label for="message">Pesan:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <div class="result">Hasil</div>
+</footer>
+
+</body>
+</html>
